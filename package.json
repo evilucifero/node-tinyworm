@@ -1,0 +1,17 @@
+{
+  "name": "node-tinyworm",
+  "version": "1.0.0",
+  "description": "This is a tinyworm wriiten in Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony index.js http://computer.hdu.edu.cn 3"
+  },
+  "author": "evilucifero",
+  "license": "MIT",
+  "dependencies": {
+    "bloomfilter": "0.0.16",
+    "cheerio": "~0.19.0",
+    "mongoose": "~4.2.8",
+    "request": "~2.67.0"
+  }
+}
