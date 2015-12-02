@@ -1,10 +1,10 @@
 {
   "name": "node-tinyworm",
   "version": "1.0.0",
-  "description": "This is a tinyworm wriiten in Node.js.",
+  "description": "This is a single-file tinyworm wriiten by Node.js.",
   "main": "index.js",
   "scripts": {
-    "start": "node --harmony index.js http://computer.hdu.edu.cn 3"
+    "test": "node --harmony index.js http://computer.hdu.edu.cn 3"
   },
   "author": "evilucifero",
   "license": "MIT",
